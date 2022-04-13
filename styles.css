@@ -1,0 +1,120 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+.container {
+  display: flex;
+  background-color: whitesmoke;
+}
+.Website_Information_container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.Website_Information {
+  background-color: white;
+  padding: 10px;
+}
+.content1 {
+  display: flex;
+  background-color: white;
+}
+img {
+  display: flex;
+  width: 15%;
+  background-color: white;
+}
+.Alcampo {
+  display: flex;
+  margin: 20px;
+  background-color: white;
+}
+.alcampo.es {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.table {
+  display: flex;
+}
+.WebsiteActions_container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.WebsiteActions {
+  background-color: white;
+  padding: 10px;
+}
+.endcontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 15px;
+  column-gap: 15px;
+  background-color: white;
+}
+.EditWebsiteDetails {
+  display: flex;
+}
+.editwebsitedetails_title {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.SiteIndexing {
+  display: flex;
+}
+.siteindexing_title {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.ScheduleReports {
+  display: flex;
+}
+.schedulereports_title {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.Scopedocuments {
+  display: flex;
+}
+.scopedocuments_title {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.Schedules {
+  display: flex;
+}
+.schedules_title {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.Servicelevelconfiguration {
+  display: flex;
+}
+.servicelevelconfiguration_title {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.Governance {
+  display: flex;
+}
+.governance_title {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.WebsiteTasks {
+  display: flex;
+}
+.websitetasks_title {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
