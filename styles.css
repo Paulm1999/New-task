@@ -8,7 +8,10 @@
   margin: 20px;
   margin-bottom: 60px;
   justify-content: center;
-  margin-right: 60px;
+  margin-right: 50px;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
 }
 .container {
   display: grid;
@@ -23,7 +26,11 @@
 .Website_Information {
   background-color: white;
   padding: 10px;
-  font-size: medium;
+  font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
 }
 .content1 {
   display: flex;
@@ -82,6 +89,9 @@
   margin: 20px;
   margin-bottom: 190px;
   padding-right: 50px;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
 }
 .WebsiteActions_container {
   display: flex;
@@ -91,7 +101,11 @@
   padding: 10px;
   margin-bottom: 20px;
   width: 100%;
-  font-size: medium;
+  font-size: small;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .endcontent {
   display: grid;
