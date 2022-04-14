@@ -3,11 +3,17 @@
   padding: 0;
   background-color: whitesmoke;
 }
+.leftblock {
+  background-color: white;
+  margin: 20px;
+  margin-bottom: 60px;
+  justify-content: center;
+  margin-right: 60px;
+}
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   background-color: whitesmoke;
-  gap: 30px;
-  grid-area: 1fr 2fr;
 }
 .Website_Information_container {
   display: flex;
@@ -17,25 +23,23 @@
 .Website_Information {
   background-color: white;
   padding: 10px;
+  font-size: medium;
 }
 .content1 {
   display: flex;
   background-color: white;
-  justify-content: center;
-  height: 300px;
-  width: 300px;
+  align-items: center;
+  padding-left: 60px;
+  color: white;
 }
-img {
-  display: flex;
-  width: 20%;
-  background-color: white;
-  justify-content: center;
-}
+
 .Alcampo {
   display: flex;
   margin: 20px;
   background-color: white;
   justify-content: center;
+  color: navy;
+  font-size: larger;
 }
 .alcampo.es {
   display: flex;
@@ -43,12 +47,15 @@ img {
   justify-content: center;
   background-color: white;
   align-items: center;
+  font-size: small;
 }
 .table {
   display: flex;
   flex-direction: column;
   background-color: white;
   margin: 20px;
+  gap: 10px;
+  font-size: small;
 }
 .div1 {
   display: flex;
@@ -70,13 +77,21 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.rightblock {
+  background-color: white;
+  margin: 20px;
+  margin-bottom: 190px;
+  padding-right: 50px;
+}
 .WebsiteActions_container {
-  width: 40%;
   display: flex;
 }
 .WebsiteActions {
   background-color: white;
   padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: medium;
 }
 .endcontent {
   display: grid;
@@ -84,78 +99,93 @@ img {
   row-gap: 15px;
   column-gap: 15px;
   background-color: white;
-  padding-top: 50px;
-  padding-left: 50px;
+  margin-left: 15px;
 }
 .EditWebsiteDetails {
   display: flex;
-  width: 60%;
+  order: 1;
 }
 .editwebsitedetails_title {
   display: flex;
   align-items: center;
   padding: 5px;
+  color: grey;
+  margin-left: 20px;
 }
 .SiteIndexing {
   display: flex;
-  width: 60%;
+  order: 3;
 }
 .siteindexing_title {
   display: flex;
   align-items: center;
   padding: 5px;
+  color: grey;
+  margin-left: 20px;
 }
 .ScheduleReports {
   display: flex;
-  width: 60%;
+  order: 5;
 }
 .schedulereports_title {
   display: flex;
   align-items: center;
   padding: 5px;
+  color: grey;
+  margin-left: 20px;
 }
 .Scopedocuments {
   display: flex;
-  width: 60%;
+  order: 7;
 }
 .scopedocuments_title {
   display: flex;
   align-items: center;
   padding: 5px;
+  color: grey;
+  margin-left: 20px;
 }
 .Schedules {
   display: flex;
-  width: 60%;
+  order: 2;
 }
 .schedules_title {
   display: flex;
   align-items: center;
   padding: 5px;
+  color: grey;
+  margin-left: 20px;
 }
 .Servicelevelconfiguration {
   display: flex;
-  width: 60%;
+  order: 4;
 }
 .servicelevelconfiguration_title {
   display: flex;
   align-items: center;
   padding: 5px;
+  color: grey;
+  margin-left: 20px;
 }
 .Governance {
   display: flex;
-  width: 60%;
+  order: 6;
 }
 .governance_title {
   display: flex;
   align-items: center;
   padding: 5px;
+  color: grey;
+  margin-left: 20px;
 }
 .WebsiteTasks {
   display: flex;
-  width: 60%;
+  order: 8;
 }
 .websitetasks_title {
   display: flex;
   align-items: center;
   padding: 5px;
+  color: grey;
+  margin-left: 20px;
 }
