@@ -6,11 +6,13 @@
 .container {
   display: flex;
   background-color: whitesmoke;
+  gap: 30px;
+  grid-area: 1fr 2fr;
 }
 .Website_Information_container {
-  width: 40%;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 .Website_Information {
   background-color: white;
@@ -19,29 +21,58 @@
 .content1 {
   display: flex;
   background-color: white;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
 }
 img {
   display: flex;
-  width: 15%;
+  width: 20%;
   background-color: white;
+  justify-content: center;
 }
 .Alcampo {
   display: flex;
   margin: 20px;
   background-color: white;
+  justify-content: center;
 }
 .alcampo.es {
   display: flex;
   margin: 20px;
   justify-content: center;
+  background-color: white;
+  align-items: center;
 }
 .table {
   display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 20px;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+}
+.div2 {
+  display: flex;
+  justify-content: space-between;
+}
+.div3 {
+  display: flex;
+  justify-content: space-between;
+}
+.div4 {
+  display: flex;
+  justify-content: space-between;
+}
+.div5 {
+  display: flex;
+  justify-content: space-between;
 }
 .WebsiteActions_container {
   width: 40%;
   display: flex;
-  flex-direction: column;
 }
 .WebsiteActions {
   background-color: white;
@@ -53,9 +84,12 @@ img {
   row-gap: 15px;
   column-gap: 15px;
   background-color: white;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 .EditWebsiteDetails {
   display: flex;
+  width: 60%;
 }
 .editwebsitedetails_title {
   display: flex;
@@ -64,6 +98,7 @@ img {
 }
 .SiteIndexing {
   display: flex;
+  width: 60%;
 }
 .siteindexing_title {
   display: flex;
@@ -72,6 +107,7 @@ img {
 }
 .ScheduleReports {
   display: flex;
+  width: 60%;
 }
 .schedulereports_title {
   display: flex;
@@ -80,6 +116,7 @@ img {
 }
 .Scopedocuments {
   display: flex;
+  width: 60%;
 }
 .scopedocuments_title {
   display: flex;
@@ -88,6 +125,7 @@ img {
 }
 .Schedules {
   display: flex;
+  width: 60%;
 }
 .schedules_title {
   display: flex;
@@ -96,6 +134,7 @@ img {
 }
 .Servicelevelconfiguration {
   display: flex;
+  width: 60%;
 }
 .servicelevelconfiguration_title {
   display: flex;
@@ -104,6 +143,7 @@ img {
 }
 .Governance {
   display: flex;
+  width: 60%;
 }
 .governance_title {
   display: flex;
@@ -112,6 +152,7 @@ img {
 }
 .WebsiteTasks {
   display: flex;
+  width: 60%;
 }
 .websitetasks_title {
   display: flex;
