@@ -38,6 +38,7 @@
   align-items: center;
   padding-left: 60px;
   color: white;
+  margin-left: 20px;
 }
 
 .Alcampo {
@@ -48,13 +49,8 @@
   color: navy;
   font-size: larger;
 }
-.alcampo.es {
-  display: flex;
-  margin: 20px;
-  justify-content: center;
-  background-color: white;
-  align-items: center;
-  font-size: small;
+.alcampo1 {
+  text-align: center;
 }
 .table {
   display: flex;
